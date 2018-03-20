@@ -1,0 +1,54 @@
+h1 {
+    text-align: center;
+}
+
+.navigationsbar .content a {
+    padding: 10px 5px 10px 5px;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 1.3em;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.navigationsbar .content a:hover {
+    text-decoration: overline;
+}
+
+html {
+    background-color: rgba(206, 104, 16, 0.53)
+}
+
+.muligheder {
+    /*    flex-direction: column;*/
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    flex-basis: auto;
+    flex-direction: row;
+    height: 300px;
+    width: 600px;
+    background: rgba(255, 255, 255, 0.74);
+    margin: 20px;
+    font-size: 150%;
+
+}
+
+.koebstand {
+    flex-basis: auto;
+    flex-direction: column;
+    height: 100px;
+    width: 100px;
+    background: rgba(255, 255, 255, 0.74);
+    margin: 20px;
+    font-size: 150%;
+}
+
+.koebstand:hover {
+    background-color: orangered;
+    color: white;
+}

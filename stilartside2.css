@@ -1,0 +1,50 @@
+h1 {
+    text-align: center;
+}
+
+.navigationsbar .content a {
+    padding: 10px 5px 10px 5px;
+    color: purple;
+    font-size: 1.3em;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.navigationsbar .content a:hover {
+    text-decoration: overline;
+}
+
+html {
+    background-color: rgba(128, 0, 128, 0.53)
+}
+
+.muligheder {
+    /*    flex-direction: column;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.toej {
+    flex-basis: auto;
+    flex-direction: row;
+    height: 400px;
+    width: 300px;
+    background: rgba(252, 252, 252, 0.31);
+    margin: 20px;
+    font-size: 150%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.toejv2 {
+    flex-basis: auto;
+    flex-direction: row;
+    height: 400px;
+    width: 300px;
+    background: rgba(252, 252, 252, 0.31);
+    margin: 20px;
+    font-size: 150%;

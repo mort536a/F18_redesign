@@ -8,7 +8,6 @@ html {
 }
 
 .muligheder {
-    /*    flex-direction: column;*/
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -21,12 +20,39 @@ html {
     width: 300px;
     background: rgba(255, 255, 255, 0.74);
     margin: 20px;
+    font-size: 150%
 }
 
+.adresse {
+    flex-basis: auto;
+    flex-direction: row;
+    height: 300px;
+    width: 1200px;
+    background: rgba(255, 255, 255, 0.74);
+    margin: 20px;
+    font-size: 150%
+}
 .koeb:hover {
     background-color: rgba(226, 206, 245, 0.76);
 }
 
 .saelg:hover {
     background-color: rgba(248, 184, 129, 0.76);
+}
+
+.adresse:hover {
+    background-color: hotpink;
+}
+
+.navigationsbar .content a {
+    padding: 10px 5px 10px 5px;
+    color: purple;
+    font-size: 1.3em;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.navigationsbar .content a:hover {
+    text-decoration: overline;
 }
