@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+}
+
+html {
+    background: url(forside.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.muligheder {
+    /*    flex-direction: column;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box {
+    flex-basis: auto;
+    flex-direction: row;
+    height: 300px;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.74);
+    margin: 20px;
+}
+
+.koeb:hover {
+    background-color: rgba(226, 206, 245, 0.76);
+}
+
+.saelg:hover {
+    background-color: rgba(248, 184, 129, 0.76);
+}
