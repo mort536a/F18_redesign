@@ -2,28 +2,37 @@ h1 {
     text-align: center;
 }
 
+.navigationsbar{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content {
+    margin: 50px;
+}
+
 .navigationsbar .content a {
     padding: 10px 5px 10px 5px;
-    color: rgba(0, 0, 0, 0.88);
+   background-color: rgba(186, 107, 39, 0.49);
     font-size: 1.3em;
     text-decoration: none;
     font-style: italic;
     font-weight: bold;
+    color: black;
 }
 
 .navigationsbar .content a:hover {
-    text-decoration: overline;
+    text-decoration: underline;
 }
 
 html {
-    background-color: rgba(206, 104, 16, 0.53)
+    background-color: rgba(211, 131, 62, 0.49)
 }
 
-.muligheder {
+.container {
     /*    flex-direction: column;*/
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
     align-items: center;
 }
 
@@ -35,7 +44,6 @@ html {
     background: rgba(255, 255, 255, 0.74);
     margin: 20px;
     font-size: 150%;
-
 }
 
 .koebstand {
@@ -51,4 +59,8 @@ html {
 .koebstand:hover {
     background-color: orangered;
     color: white;
+}
+
+.ninja {
+margin: 50px;
 }

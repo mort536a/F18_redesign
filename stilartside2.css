@@ -2,21 +2,31 @@ h1 {
     text-align: center;
 }
 
+.navigationsbar{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content {
+    margin: 50px;
+}
+
 .navigationsbar .content a {
     padding: 10px 5px 10px 5px;
-    color: purple;
+    background-color: rgba(128, 0, 128, 0.28);
     font-size: 1.3em;
     text-decoration: none;
     font-style: italic;
     font-weight: bold;
+    color: black;
 }
 
 .navigationsbar .content a:hover {
-    text-decoration: overline;
+    text-decoration: underline;
 }
 
 html {
-    background-color: rgba(128, 0, 128, 0.53)
+    background-color: rgba(128, 0, 128, 0.3);
 }
 
 .muligheder {
@@ -31,7 +41,7 @@ html {
     flex-direction: row;
     height: 400px;
     width: 300px;
-    background: rgba(252, 252, 252, 0.31);
+    background-color: rgba(128, 0, 128, 0.28);
     margin: 20px;
     font-size: 150%;
 }
@@ -45,6 +55,6 @@ h1 {
     flex-direction: row;
     height: 400px;
     width: 300px;
-    background: rgba(252, 252, 252, 0.31);
+    background-color: rgba(128, 0, 128, 0.28);
     margin: 20px;
     font-size: 150%;

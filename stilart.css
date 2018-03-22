@@ -1,5 +1,7 @@
 h1 {
     text-align: center;
+    font-size: 300%;
+
 }
 
 html {
@@ -16,21 +18,23 @@ html {
 .box {
     flex-basis: auto;
     flex-direction: row;
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     background: rgba(255, 255, 255, 0.74);
     margin: 20px;
-    font-size: 150%
+    padding: 30px;
+    font-size: 175%;
 }
 
 .adresse {
     flex-basis: auto;
     flex-direction: row;
-    height: 300px;
+    height: 200px;
     width: 1200px;
     background: rgba(255, 255, 255, 0.74);
     margin: 20px;
-    font-size: 150%
+    padding: 30px;
+    font-size: 200%;
 }
 .koeb:hover {
     background-color: rgba(226, 206, 245, 0.76);
@@ -41,12 +45,12 @@ html {
 }
 
 .adresse:hover {
-    background-color: hotpink;
+    background-color: rgba(252, 135, 155, 0.53);
 }
 
 .navigationsbar .content a {
     padding: 10px 5px 10px 5px;
-    color: purple;
+    color: black;
     font-size: 1.3em;
     text-decoration: none;
     font-style: italic;
@@ -54,5 +58,14 @@ html {
 }
 
 .navigationsbar .content a:hover {
-    text-decoration: overline;
+ text-decoration: overline;
+}
+
+a:hover {
+ text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
