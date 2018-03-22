@@ -13,12 +13,13 @@ h1 {
 
 .navigationsbar .content a {
     padding: 10px 5px 10px 5px;
-   background-color: rgba(186, 107, 39, 0.49);
+   background-color: rgba(255, 156, 70, 0.55);
     font-size: 1.3em;
     text-decoration: none;
     font-style: italic;
     font-weight: bold;
     color: black;
+    margin: 2px;
 }
 
 .navigationsbar .content a:hover {
@@ -26,41 +27,46 @@ h1 {
 }
 
 html {
-    background-color: rgba(211, 131, 62, 0.49)
+    background-color: rgba(253, 175, 108, 0.81)
 }
 
-.container {
-    /*    flex-direction: column;*/
+.muligheder {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
 }
 
 .box {
     flex-basis: auto;
     flex-direction: row;
-    height: 300px;
-    width: 600px;
-    background: rgba(255, 255, 255, 0.74);
+    height: 750px;
+    width: 1024px;
     margin: 20px;
     font-size: 150%;
 }
 
 .koebstand {
     flex-basis: auto;
-    flex-direction: column;
+    flex-direction: row;
     height: 100px;
-    width: 100px;
-    background: rgba(255, 255, 255, 0.74);
+    width: 512px;
+    background-color: rgba(255, 156, 70, 0.55);
     margin: 20px;
-    font-size: 150%;
+    padding: 30px;
+    font-size: 200%;
+}
+
+.koebstand p {
+    padding-left: 150px;
 }
 
 .koebstand:hover {
-    background-color: orangered;
-    color: white;
+    background-color: rgba(255, 156, 70, 0.55);
+    text-decoration: underline;
 }
 
-.ninja {
-margin: 50px;
+a {
+    color: black;
+    text-decoration: none;
 }

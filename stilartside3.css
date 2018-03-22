@@ -19,6 +19,7 @@ h1 {
     font-style: italic;
     font-weight: bold;
     color: black;
+    margin: 2px;
 }
 
 .navigationsbar .content a:hover {
