@@ -49,7 +49,6 @@ html {
 .koebstand {
     flex-basis: auto;
     flex-direction: row;
-    height: 100px;
     width: 512px;
     background-color: rgba(255, 156, 70, 0.55);
     margin: 20px;
